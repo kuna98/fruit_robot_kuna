@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find_gazebo_ros)/launch/empty_world.launch">
+         <arg name="world_name" value="$(find mrm_gazebo)/worlds/my_world.world">
+    <include>
+<launch>
